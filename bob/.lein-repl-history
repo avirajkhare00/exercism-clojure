@@ -1,0 +1,7 @@
+(blank? ":) ?")
+(defn response-for [s]
+(last s))
+response-for "yo"
+response-for "yo. my name is aviraj khare"
+response-for "yo. my name is aviraj khare" "khare"
+exit
